@@ -1,0 +1,267 @@
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 5% 0;
+  background: #1d1b26;
+}
+
+.resume-container {
+  padding: 4%;
+  width: 80%;
+  border: 1px solid #000000;
+  border-radius: 10px;
+  background: whitesmoke;
+}
+
+.resume-container h1 {
+  text-align: center;
+}
+
+.experience-container {
+  margin-bottom: 1.5rem;
+}
+
+.experience-container h2,
+.education-container h2,
+.volunteer-container h2 {
+  text-align: center;
+}
+
+.experience,
+.volunteer {
+  margin-bottom: 1.5rem;
+}
+
+.experience-banner,
+.volunteer-banner {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 1%;
+  background: lightblue;
+}
+
+.education-banner {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 1%;
+  margin-bottom: 1rem;
+}
+
+.education-banner {
+  width: 100%;
+}
+
+.experience-banner p,
+.education-banner p,
+.volunteer-banner p {
+  margin: 0;
+  padding: 0;
+  font-size: 0.75rem;
+}
+
+.experience-title p:first-child,
+.volunteer-title p:first-child {
+  font-weight: bold;
+}
+
+.education-title,
+.volunteer-title {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: start;
+  width: 60%;
+}
+
+.education-title p:first-child {
+  font-weight: bold;
+}
+
+.experience-title,
+.education-title {
+  font-style: italic;
+}
+
+.education-period,
+.volunteer-period {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  width: 30%;
+}
+
+.experience-period,
+.education-period,
+.volunteer-period {
+  font-weight: bold;
+}
+
+.experience-content,
+.volunteer-content {
+  font-size: 0.75rem;
+}
+
+.experience-content ul,
+.volunteer-content ul {
+  padding: 0;
+  padding-left: 8%;
+}
+
+.experience-content li,
+.volunteer-content li {
+  margin-bottom: 0.5rem;
+}
+
+.education-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  margin-bottom: 1.5rem;
+}
+
+.volunteer-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  margin-bottom: 1.5rem;
+}
+
+@media screen and (min-width: 420px) {
+  .resume-container h1 {
+    font-size: 2rem;
+  }
+
+  .experience-container h2,
+  .education-container h2,
+  .volunteer-container h2 {
+    font-size: 1.5rem;
+  }
+
+  .experience-banner p,
+  .education-banner p,
+  .volunteer-banner p {
+    margin: 0;
+    padding: 0;
+    font-size: 0.85rem;
+  }
+
+  .experience-content,
+  .volunteer-content {
+    font-size: 0.8rem;
+  }
+}
+
+@media screen and (min-width: 567px) {
+  .resume-container {
+    width: 70%;
+  }
+
+  .resume-container h1 {
+    font-size: 2.1rem;
+  }
+
+  .experience-container h2,
+  .education-container h2,
+  .volunteer-container h2 {
+    font-size: 1.6rem;
+  }
+
+  .experience-banner p,
+  .education-banner p,
+  .volunteer-banner p {
+    margin: 0;
+    padding: 0;
+    font-size: 0.9rem;
+  }
+
+  .experience-content,
+  .volunteer-content {
+    font-size: 0.85rem;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .resume-container {
+    padding: 4% 5%;
+    width: 60%;
+  }
+
+  .resume-container h1 {
+    font-size: 2.3rem;
+  }
+
+  .experience-container h2,
+  .education-container h2,
+  .volunteer-container h2 {
+    font-size: 1.8rem;
+  }
+
+  .experience-banner p,
+  .education-banner p,
+  .volunteer-banner p {
+    margin: 0;
+    padding: 0;
+    font-size: 1rem;
+  }
+
+  .experience-content,
+  .volunteer-content {
+    font-size: 0.95rem;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .resume-container {
+    padding: 4% 6%;
+    width: 60%;
+  }
+
+  .resume-container h1 {
+    font-size: 3rem;
+  }
+
+  .experience-container h2,
+  .education-container h2,
+  .volunteer-container h2 {
+    font-size: 2.3rem;
+  }
+
+  .experience-banner p,
+  .education-banner p,
+  .volunteer-banner p {
+    margin: 0;
+    padding: 0;
+    font-size: 1.3rem;
+  }
+
+  .experience-content,
+  .volunteer-content {
+    font-size: 1.2rem;
+  }
+
+  .education-title,
+  .volunteer-title {
+    width: 60%;
+  }
+
+  .education-period,
+  .volunteer-period {
+    width: 40%;
+  }
+
+  .experience,
+  .volunteer {
+    margin-bottom: 2rem;
+  }
+}
